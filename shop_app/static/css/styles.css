@@ -96,6 +96,12 @@ h1 {
     color: var(--color-dark-grey)
 }
 
+.navbar__menu__item > a {
+    color: var(--color-dark-grey);
+    text-decoration: none;
+}
+
+
 #cart-icon{
     width: 25px;
     display: inline-block;
@@ -130,6 +136,7 @@ h1 {
     padding: 25px 0px;
 }
 
+/* Shop_store */
 /* Sub-header */
 
 #sub__header {
@@ -197,4 +204,14 @@ h1 {
     text-align: center;
     margin-left: 90px;
     
+}
+
+/* shop_cart */
+
+.box-element{
+	box-shadow:hsl(0, 0%, 80%) 0 0 16px;
+	background-color: #fff;
+	border-radius: 4px;
+    padding: 10px;
+    width: 965px;
 }
