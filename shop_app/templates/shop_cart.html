@@ -18,7 +18,7 @@
                             <h5>Item: <strong>{{order.get_cart_items}}</strong></h5>
                         </th>
                         <th>
-                            <h5>Price: <strong>${{order.get_cart_total|floatformat:2}}</strong></h5>
+                            <h5>Price: <strong>{{order.get_cart_total|floatformat:2}}</strong></h5>
                         </th>
                         <th>
                             <h5>QTY: <strong>{{order.get_cart_total|floatformat:2}}</strong></h5>
@@ -29,15 +29,15 @@
                         <th>
                             <h5>Order: </h5>
                         </th>
-                        <!-- <th>
-                            <a class="btn btn-success" href="{% url 'buy_it_now' %}">Buy it Now</a>
-                        </th> -->
                     </tr>
-
                 </table>
+                <hr>
+                <div class="total__order">
+                    <h5 id="total__order__price">Total Price:</h5>
+                    <h5 id="total__order__qty">Total QTY:</h5>
+                </div>
             </div>
         </div>
-
     </div>
 
 </section>
