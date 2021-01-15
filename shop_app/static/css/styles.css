@@ -154,3 +154,43 @@ h1 {
     color: var(--color-dark-grey)
     
 }
+
+.header__img__main {
+    width: 100%;
+    margin: 50px;
+}
+
+#header__img__main {
+    display: block;
+    max-width: 100%;
+    height: 450px;
+}
+
+/* Main */
+
+
+.title > h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: var(--font-medium);
+    margin: 10px;
+}
+
+.food__list {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 20px;
+}
+
+.anchor__box__img {
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+}
+
+.name > a {
+    color: var(--color-black);
+    text-align: center;
+    margin-left: 90px;
+    
+}
