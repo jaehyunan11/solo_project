@@ -1,0 +1,77 @@
+{% extends 'shop_main.html' %}
+{% load static %}
+{% block content %}
+<!-- Sub Header -->
+<section id="sub__header">
+    <div class="header__menu__main">
+        <ul class="header__menu">
+            <li class="header__menu__item" data-link="#bread">Bread</li>
+            <li class="header__menu__item" data-link="#jam">Jam</li>
+            <li class="header__menu__item" data-link="#cake">Cake</li>
+        </ul>
+    </div>
+</section>
+<section id="header__img">
+    <div class="header__img__main">
+        <img id="header__img__main" src="{% static 'images/Cannele.png' %}" alt="Cannele">
+    </div>
+</section>
+<!-- Main -->
+<section id="main">
+    <div class="title">
+        <h2><span>Bread</span></h2>
+    </div>
+    <div class="bx__wrapper">
+        <ul class="food__list">
+            <li class="anchor__box">
+                <div class="thumbnail">
+                    <a href="#" name="anchor__box__1">
+                        <img class="anchor__box__img" src="{% static 'images/baguette.png' %}" alt="baguette">
+                    </a>
+                </div>
+                <div class="description">
+                    <strong class="name">
+                        <a href="#" class="food__name">Baguette</a>
+                    </strong>
+                </div>
+            </li>
+            <li class="anchor__box">
+                <div class="thumbnail">
+                    <a href="#" name="anchor__box__1">
+                        <img class="anchor__box__img" src="{% static 'images/baguette.png' %}" alt="baguette">
+                    </a>
+                </div>
+                <div class="description">
+                    <strong class="name">
+                        <a href="#" class="food__name">Baguette</a>
+                    </strong>
+                </div>
+            </li>
+            <li class="anchor__box">
+                <div class="thumbnail">
+                    <a href="#" name="anchor__box__1">
+                        <img class="anchor__box__img" src="{% static 'images/baguette.png' %}" alt="baguette">
+                    </a>
+                </div>
+                <div class="description">
+                    <strong class="name">
+                        <a href="#" class="food__name">Baguette</a>
+                    </strong>
+                </div>
+            </li>
+            <li class="anchor__box">
+                <div class="thumbnail">
+                    <a href="#" name="anchor__box__1">
+                        <img class="anchor__box__img" src="{% static 'images/baguette.png' %}" alt="baguette">
+                    </a>
+                </div>
+                <div class="description">
+                    <strong class="name">
+                        <a href="#" class="food__name">Baguette</a>
+                    </strong>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+{% endblock content %}

@@ -7,7 +7,7 @@ from .models import *
 def store(request):
     # create context to pass some data
     context = {}
-    return render(request, 'shop_main.html', context)
+    return render(request, 'shop_store.html', context)
 
 
 def user_login(request):
