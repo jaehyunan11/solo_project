@@ -276,8 +276,15 @@ h1 {
 #create__account__container {
     padding: 30px;
     margin: 0px 230px;
+    
 }
 
 #create__account__form {
+    width: 400px;
+    margin: 10px 0px;
+    font-size: var(--font-micro);
+}
+
+#create__button {
     width: 400px;
 }
