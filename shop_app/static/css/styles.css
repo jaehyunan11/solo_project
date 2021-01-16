@@ -269,3 +269,15 @@ h1 {
     color: var(--color-black);
     text-decoration: underline;
 }
+
+
+/* Create Account */
+
+#create__account__container {
+    padding: 30px;
+    margin: 0px 230px;
+}
+
+#create__account__form {
+    width: 400px;
+}
