@@ -1,5 +1,26 @@
 {% extends 'shop_main.html' %}
 {% load static %}
 {% block content %}
-<h3>User Login</h3>
+<div id="login__title">
+    <h3>Login</h3>
+</div>
+<div id="login">
+    <form id="user__login" action="{% url 'store'%}" method=POST>
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-dark">Login</button>
+        <div class="create__account">
+            <label for="question">Don't have account?</label>
+            <a id="link__create__account" href="{% url 'user_registration'%}">Create Account</a>
+        </div>
+    </form>
+</div>
 {% endblock content %}

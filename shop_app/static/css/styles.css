@@ -231,3 +231,41 @@ h1 {
     margin: 0px 50px;
     font-size: var(--font-small);
 }
+
+/* User_Login */
+
+#login__title {
+    margin-left: 311px;
+    font-style: italic;
+    font-size: var(--font-small);
+    font-weight: bold;
+}
+
+
+#login {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+#user__login {
+    border: 2px solid var(--color-dark-grey);
+    padding: 30px;
+}
+
+.btn-dark {
+    /* margin-left: 30px; */
+    width: 280px;
+}
+
+.create__account {
+    margin-top: 15px;
+    font-size: var(--font-micro);
+    margin-left: 20px;
+}
+
+#link__create__account {
+    color: var(--color-black);
+    text-decoration: underline;
+}
