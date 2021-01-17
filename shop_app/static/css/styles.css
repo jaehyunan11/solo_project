@@ -57,6 +57,7 @@ li {
     list-style: none;
 }
 
+
 /* Typography */
 
 h1 {
@@ -127,6 +128,19 @@ h1 {
     right: 16px;
     font-size: var(--font-regular);
     
+}
+
+.col-lg-4, .col-lg-6, .col-lg-8, .col-lg-12{
+	margin-top: 10px;
+}
+
+.form-field{
+    width:250px;
+	padding: 5px;
+}
+
+.form-control {
+    width: 500px;
 }
 
 /* Header */
@@ -218,7 +232,7 @@ h1 {
 	background-color: #fff;
 	border-radius: 4px;
     padding: 10px;
-    width: 965px;
+    width: 1140px;;
 }
 
 .cart-row {
@@ -323,4 +337,17 @@ h1 {
 
 #create__button {
     width: 400px;
+}
+
+/* Buy_it_Now */
+
+.buy-box-element {
+	box-shadow:hsl(0, 0%, 80%) 0 0 16px;
+	background-color: #fff;
+	border-radius: 4px;
+    padding: 10px;
+}
+
+#shipping__title {
+    font-weight: bold;
 }
